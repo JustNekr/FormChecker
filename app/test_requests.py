@@ -11,6 +11,18 @@ tests = [{"data": {"field_name_1": "fgdgdg@gthy.ru",
                    "disclaimer": 'some text'},
           "accepted_answer": {'name': 'Book form'}
           },
+         {"data": {"order_date": "12.06.1987",
+                   "client_email": "client@mail.com",
+                   "order_text": 'some text',
+                   "unavailable field": "23568"},
+          "accepted_answer": {"name": "Order form", }
+          },
+         {"data": {"order_date": "12.06.1987",
+                   "client_email": "client@mail.com",
+                   "order_text": 'some text',
+                   "publication_date": "2002.12.22"},
+          "accepted_answer": {"name": "Order form", }
+          },
          ]
 
 
