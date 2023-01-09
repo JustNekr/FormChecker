@@ -21,7 +21,7 @@ def form_analyzer():
         return typed_form
 
 
-@app.route("/db_info")
+@app.route("/db_all")
 def db_test():
     db = TinyDB("db.json")
     info = db.all()
